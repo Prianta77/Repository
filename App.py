@@ -1,6 +1,15 @@
 import streamlit as st
+import pandas as pd
+import pickle
+import joblib
+import seaborn as sns
+import matplotlib.pyplot as plt
 
-st.title("Hello, World")
-st.write("Ini adalah aplikasi streamlit sederhana")
+st.set_page_config(page_title="Buzzer Twitter Dashboard App", layout="centered")
+st-sidebar.header("Dashboard")
 
-st.set_page_config(page_title="Hello World App", layout="centered")
+
+st.title("Selamat Datang di Aplikasi Streamlit Sederhana")
+st.write("Aplikasi ini dibuat untuk memenuhi tugas projek data mining")
+
+#Load Dataset
