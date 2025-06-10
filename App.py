@@ -13,3 +13,6 @@ st.title("Selamat Datang di Aplikasi Streamlit Sederhana")
 st.write("Aplikasi ini dibuat untuk memenuhi tugas projek data mining")
 
 #Load Dataset
+df = pd.read_csv("Model/twitter_training.csv")
+
+#Tampilkan Dataframe
